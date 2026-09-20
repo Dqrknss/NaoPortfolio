@@ -1,21 +1,20 @@
 export const openGraph = {
-	author: "naokoaf",
-	twitterHandle: "@NaokoAsF",
-	defaultDescription: "a girl who uses the internet too much.",
+	author: "NaoYatayumi",
+	defaultDescription: "A strange guy.",
 	defaultImage: "/assets/open-graph.webp",
 	home: {
 		pageTitle: "nao / home",
-		title: "nao's homepage",
+		title: "Nao's",
 		description: null,
 		image: null,
 	},
-	blog: {
-		pageTitle: "nao / blog",
-		title: "nao's blog",
-		postTitlePrefix: "nao / ",
-		description: null,
-		image: null,
-	},
+	//blog: {
+	//	pageTitle: "simon / blog",
+	//	title: "nasimono's blog",
+	//	postTitlePrefix: "simon / ",
+	//	description: null,
+	//	image: null,
+	//},
 	projects: {
 		pageTitle: "nao / projects",
 		title: "nao's projects",
@@ -43,12 +42,12 @@ export const giscus = {
 export const profile = [
 	{
 		"id": "name",
-		"text": "nicole",
+		"text": "nao",
 		"icon": "lucide/user",
 	},
 	{
 		"id": "gender",
-		"text": "she/her",
+		"text": "he/him",
 		"icon": "lucide/venus-and-mars",
 	},
 	{
@@ -58,12 +57,12 @@ export const profile = [
 	},
 	{
 		"id": "language",
-		"text": "english, portuguese",
+		"text": "english, danish",
 		"icon": "lucide/languages",
 	},
 	{
 		"id": "location",
-		"text": "brazil",
+		"text": "denmark",
 		"icon": "lucide/map-pin",
 	},
 ];
@@ -71,33 +70,13 @@ export const profile = [
 export const socials = [
 	{
 		"text": "github",
-		"link": "https://github.com/NaokoAF",
+		"link": "https://github.com/Simon-SJ",
 		"icon": "simple-icons/github",
 	},
 	{
 		"text": "youtube",
-		"link": "https://www.youtube.com/@naokoaf",
+		"link": "https://www.youtube.com/@simonsssj",
 		"icon": "simple-icons/youtube",
-	},
-	{
-		"text": "twitch",
-		"link": "https://twitch.tv/naokoaf",
-		"icon": "simple-icons/twitch",
-	},
-	{
-		"text": "bluesky",
-		"link": "https://bsky.app/profile/naokoaf.com",
-		"icon": "simple-icons/bluesky",
-	},
-	{
-		"text": "x / twitter",
-		"link": "https://x.com/NaokoAsF",
-		"icon": "simple-icons/x",
-	},
-	{
-		"text": "anilist",
-		"link": "https://anilist.co/user/429727/",
-		"icon": "simple-icons/anilist",
 	},
 	// {
 	// 	"text": "itch.io",
@@ -110,9 +89,9 @@ export const socials = [
 	// 	"icon": "simple-icons/osu",
 	// },
 	{
-		"text": "hello@naokoaf.com",
-		"link": "mailto:hello@naokoaf.com",
+		"text": "s@evt.dk",
+		"link": "mailto:s@evt.dk",
 		"icon": "lucide/mail",
-		"copy": "hello@naokoaf.com",
+		"copy": "s@evt.dk",
 	},
 ];
