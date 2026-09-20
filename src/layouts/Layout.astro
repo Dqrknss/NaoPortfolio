@@ -63,7 +63,6 @@ const { pageTitle, title, description, image, pagefindIgnore, article } = Astro.
 		<meta name="twitter:description" content={description ?? openGraph.defaultDescription} />
 		<meta name="twitter:image" content={image?.src ?? openGraph.defaultImage} />
 
-		<link rel="alternate" type="application/rss+xml" title={openGraph.blog.title} href="/blog/rss.xml" />
 	</head>
 	<body>
 		<Background />
